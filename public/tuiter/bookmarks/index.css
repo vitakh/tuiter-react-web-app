@@ -1,24 +1,3 @@
-.wd-bg-color-black {
-    background-color: black;
-}
-
-.wd-fg-color-white {
-    color: white; //
-}
-
-.wd-margins {
-    margin-left: 16px;
-    margin-right: 12px;
-}
-
-.wd-margin-left {
-    margin-left: 16px; //
-}
-
-.wd-border {
-    border-color: rgb(47, 51, 54);
-}
-
 .wd-bookmark-border {
     border-bottom: rgb(47, 51, 54) solid 1px;
     padding-top: 12px;
@@ -28,7 +7,6 @@
     border-radius: 50%;
     height: 48px;
     width: 48px;
-
 }
 
 .wd-padding {
@@ -39,31 +17,20 @@
     width: 504px;
     height: 264px;
     border-radius: 15px 15px 0 0;
-    /*padding-right: 6px;*/
     border: rgb(47, 51, 54) solid 1px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
 }
 
-.wd-vert-border-left {
-    border-left: rgb(47, 51, 54) solid 1px;
-
-}
-
-.wd-vert-border-right {
+.wd-vert-border-right-bk {
     border-right: rgb(47, 51, 54) solid 1px;
     position: relative;
     width: max(604px);
 }
 
-.wd-vert-border {
-    border-right: rgb(47, 51, 54) solid 1px;
-}
-
 .wd-font-20px {
     font-size: 20px;
-    font-weight: bold;
 }
 
 .wd-title-margin {
@@ -74,31 +41,9 @@
     padding-top: 5px;
 }
 
-.wd-font-15px {
-    font-size: 15px;
-}
-
-.wd-font-bold {
-    font-weight: bold;
-}
 .wd-handle {
     font-size: 13px;
-    color: rgb(110, 118, 125);
     position: relative;
-}
-.wd-trend-tuit {
-    font-size: 15px;
-    color: rgb(110, 118, 125);
-    position: relative;
-}
-
-.wd-author-tuit {
-    font-size: 15px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-float-right {
-    float: right;
 }
 
 .wd-display-author {
@@ -129,11 +74,6 @@
     margin-right: 16px;
 }
 
-.wd-post-text {
-    margin-left: 76px;
-    margin-right: 16px;
-}
-
 .wd-padding-article {
     padding: 12px;
 }
@@ -145,7 +85,6 @@
 
 .wd-article-content {
     width: max(480px);
-
 }
 
 .wd-icons {
@@ -161,7 +100,6 @@
 .wd-single-icon {
     color: rgb(110, 118, 125);
     text-decoration: none;
-    font-size: 15px;
     display: flex;
     justify-content: space-between;
     gap: 12px;
@@ -173,6 +111,7 @@
     color: red;
 }
 
-
-
-
+.wd-post-text {
+    margin-left: 76px;
+    margin-right: 16px;
+}
