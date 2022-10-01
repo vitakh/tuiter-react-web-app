@@ -6,8 +6,22 @@
     color: white; //
 }
 
+.wd-margins {
+    margin-left: 16px;
+    margin-right: 12px;
+}
+
+.wd-margin-left {
+    margin-left: 16px; //
+}
+
 .wd-border {
     border-color: rgb(47, 51, 54);
+}
+
+.wd-bookmark-border {
+    border-bottom: rgb(47, 51, 54) solid 1px;
+    padding-top: 12px;
 }
 
 .wd-avatar img {
@@ -17,15 +31,19 @@
 
 }
 
+.wd-padding {
+    padding-bottom: 12px;
+}
+
 .wd-bookmark-image img {
     width: 504px;
     height: 264px;
     border-radius: 15px 15px 0 0;
-}
-
-.wd-try-red {
-    color: red;
-    font-size: 30px;
+    /*padding-right: 6px;*/
+    border: rgb(47, 51, 54) solid 1px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
 }
 
 .wd-vert-border-left {
@@ -35,6 +53,12 @@
 
 .wd-vert-border-right {
     border-right: rgb(47, 51, 54) solid 1px;
+    position: relative;
+    width: max(604px);
+}
+
+.wd-vert-border {
+    border-right: rgb(47, 51, 54) solid 1px;
 }
 
 .wd-font-20px {
@@ -42,21 +66,113 @@
     font-weight: bold;
 }
 
-.wd-font-15px {
-    font-size: 15px;
-    font-weight: bold;
+.wd-title-margin {
+    margin-top: 12px;
 }
 
-.wd-trend-tuit {
+.wd-sub-padding {
+    padding-top: 5px;
+}
+
+.wd-font-15px {
+    font-size: 15px;
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+.wd-handle {
     font-size: 13px;
+    color: rgb(110, 118, 125);
+    position: relative;
+}
+.wd-trend-tuit {
+    font-size: 15px;
     color: rgb(110, 118, 125);
     position: relative;
 }
 
 .wd-author-tuit {
     font-size: 15px;
-    color: rgb(110, 118, 125);;
+    color: rgb(110, 118, 125);
 }
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-display-author {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.wd-padding-top-12px {
+    padding-top: 12px;
+}
+
+.wd-padding-left {
+    padding-left: 7px;
+    /*Add 7px bc a gap before is 5px = 12px*/
+}
+
+.wd-text {
+    width: max(506px);
+    margin-left: 76px;
+    margin-top: -32px;
+    margin-right: 16px;
+    padding-bottom: 12px;
+}
+
+.wd-post-img img {
+    margin-left: 76px;
+    margin-right: 16px;
+}
+
+.wd-post-text {
+    margin-left: 76px;
+    margin-right: 16px;
+}
+
+.wd-padding-article {
+    padding: 12px;
+}
+
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.wd-article-content {
+    width: max(480px);
+
+}
+
+.wd-icons {
+    margin-left: 76px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+}
+
+.wd-single-icon {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.wd-like {
+    color: red;
+}
+
 
 
 
