@@ -1,3 +1,48 @@
+.wd-font-icon-more {
+    font-size: 50%;
+    margin-left: -3px;
+    margin-right: 2px;
+}
+
+.wd-search-icon {
+    top: 12px;
+    left: 30px;
+}
+
+.wd-settings-icon {
+    font-size: 30px;
+}
+
+.wd-text-image {
+    bottom: 1px;
+    left: 10px;
+    color: white;
+}
+
+.wd-img {
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .wd-top-explore {
     padding-left: 16px;
     justify-content: space-between;
@@ -12,10 +57,7 @@
     padding: 8px;
 }
 
-.wd-centering {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .wd-search-bar {
     color: white;
