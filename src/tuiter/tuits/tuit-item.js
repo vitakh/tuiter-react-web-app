@@ -1,7 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -13,9 +13,11 @@ const TuitItem = (
             "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
             "image": "spacex.png",
             "liked": true,
+            "disliked": false,
             "replies": 123,
             "retuits": 432,
             "likes": 2345,
+            "dislikes": 0,
             "handle": "@spacex",
             "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
         }
@@ -23,13 +25,13 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img className="float-end rounded-circle mx-2" height={60} src={`/images/${tuit.image}`}/>
+                    <img className="float-end rounded-circle mx-2" height={60} width={60} src={`/images/${tuit.image}`}/>
                 </div>
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-9">
                     <div>
